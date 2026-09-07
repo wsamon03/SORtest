@@ -1,0 +1,64 @@
+{
+  "id": "bruiser",
+  "displayName": "Bruiser",
+  "spritesheet": "spritesheet.png",
+  "frameWidth": 80,
+  "frameHeight": 80,
+  "columns": 8,
+  "rows": 6,
+  "defaultAnimation": "idle",
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frameCount": 4,
+      "frameRate": 6,
+      "loop": true
+    },
+    "walk": {
+      "row": 1,
+      "frameCount": 6,
+      "frameRate": 10,
+      "loop": true
+    },
+    "attack1": {
+      "row": 2,
+      "frameCount": 4,
+      "frameRate": 14,
+      "loop": false,
+      "hitFrame": 2
+    },
+    "hurt": {
+      "row": 4,
+      "frameCount": 2,
+      "frameRate": 8,
+      "loop": false
+    },
+    "ko": {
+      "row": 5,
+      "frameCount": 4,
+      "frameRate": 6,
+      "loop": false,
+      "holdLastFrame": true
+    }
+  },
+  "hurtbox": {
+    "width": 25,
+    "height": 50,
+    "offsetX": 0,
+    "offsetY": 13
+  },
+  "attacks": {
+    "attack1": {
+      "width": 45,
+      "height": 25,
+      "offsetX": 38,
+      "offsetY": 3,
+      "damage": 8,
+      "knockback": 120
+    }
+  },
+  "stats": {
+    "maxHealth": 90,
+    "walkSpeed": 60
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "characters": [
+    { "id": "rook", "path": "assets/sprites/characters/rook" },
+    { "id": "vex", "path": "assets/sprites/characters/vex" }
+  ],
+  "enemies": [
+    { "id": "grunt", "path": "assets/sprites/enemies/grunt" },
+    { "id": "shiv", "path": "assets/sprites/enemies/shiv" },
+    { "id": "bruiser", "path": "assets/sprites/enemies/bruiser" }
+  ]
+}
