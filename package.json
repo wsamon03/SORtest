@@ -1,0 +1,14 @@
+{
+  "name": "sortest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Streets of Rage-style side-scrolling beat-'em-up with hot-swappable pixel-art sprites.",
+  "type": "module",
+  "scripts": {
+    "generate:sprites": "node tools/generate_sprites.mjs",
+    "serve": "npx http-server -p 8080 ."
+  },
+  "devDependencies": {
+    "pngjs": "^7.0.0"
+  }
+}

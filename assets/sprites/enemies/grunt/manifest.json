@@ -1,0 +1,64 @@
+{
+  "id": "grunt",
+  "displayName": "Grunt",
+  "spritesheet": "spritesheet.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 8,
+  "rows": 6,
+  "defaultAnimation": "idle",
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frameCount": 4,
+      "frameRate": 6,
+      "loop": true
+    },
+    "walk": {
+      "row": 1,
+      "frameCount": 6,
+      "frameRate": 10,
+      "loop": true
+    },
+    "attack1": {
+      "row": 2,
+      "frameCount": 4,
+      "frameRate": 14,
+      "loop": false,
+      "hitFrame": 2
+    },
+    "hurt": {
+      "row": 4,
+      "frameCount": 2,
+      "frameRate": 8,
+      "loop": false
+    },
+    "ko": {
+      "row": 5,
+      "frameCount": 4,
+      "frameRate": 6,
+      "loop": false,
+      "holdLastFrame": true
+    }
+  },
+  "hurtbox": {
+    "width": 20,
+    "height": 40,
+    "offsetX": 0,
+    "offsetY": 10
+  },
+  "attacks": {
+    "attack1": {
+      "width": 36,
+      "height": 20,
+      "offsetX": 30,
+      "offsetY": 2,
+      "damage": 8,
+      "knockback": 120
+    }
+  },
+  "stats": {
+    "maxHealth": 40,
+    "walkSpeed": 90
+  }
+}

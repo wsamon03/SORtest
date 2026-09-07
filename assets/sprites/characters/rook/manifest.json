@@ -1,0 +1,79 @@
+{
+  "id": "rook",
+  "displayName": "Rook",
+  "spritesheet": "spritesheet.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 8,
+  "rows": 6,
+  "defaultAnimation": "idle",
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frameCount": 4,
+      "frameRate": 6,
+      "loop": true
+    },
+    "walk": {
+      "row": 1,
+      "frameCount": 6,
+      "frameRate": 10,
+      "loop": true
+    },
+    "attack1": {
+      "row": 2,
+      "frameCount": 4,
+      "frameRate": 14,
+      "loop": false,
+      "hitFrame": 2
+    },
+    "hurt": {
+      "row": 4,
+      "frameCount": 2,
+      "frameRate": 8,
+      "loop": false
+    },
+    "ko": {
+      "row": 5,
+      "frameCount": 4,
+      "frameRate": 6,
+      "loop": false,
+      "holdLastFrame": true
+    },
+    "attack2": {
+      "row": 3,
+      "frameCount": 4,
+      "frameRate": 14,
+      "loop": false,
+      "hitFrame": 2
+    }
+  },
+  "hurtbox": {
+    "width": 20,
+    "height": 40,
+    "offsetX": 0,
+    "offsetY": 10
+  },
+  "attacks": {
+    "attack1": {
+      "width": 36,
+      "height": 20,
+      "offsetX": 30,
+      "offsetY": 2,
+      "damage": 8,
+      "knockback": 120
+    },
+    "attack2": {
+      "width": 42,
+      "height": 20,
+      "offsetX": 34,
+      "offsetY": 16,
+      "damage": 14,
+      "knockback": 200
+    }
+  },
+  "stats": {
+    "maxHealth": 100,
+    "walkSpeed": 150
+  }
+}
